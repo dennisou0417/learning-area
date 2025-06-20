@@ -16,5 +16,5 @@ btn.addEventListener("click", () =>{
     span.textContent = value;
     newBtn.textContent = "Delete";
     ul.appendChild(li);
-    focus();
+    input.focus();
 });
